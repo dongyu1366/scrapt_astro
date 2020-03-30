@@ -1,4 +1,8 @@
 # scrapy_astro
+## 環境設置：
+Python 3.7.5
+Scrapy 2.0.1  
+
 ## 程式解說：
 1.items.py：定義了day, constellation, overall, love, carrer, money等六個欄位，來進行資料處理。  
 2.pipelines.py：將處理完的資料分為上述六個欄位儲存到資料庫(sqlite3)中。  
