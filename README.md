@@ -1,6 +1,6 @@
 # scrapy_astro
 ## 環境設置：
-Python 3.7.5
+Python 3.7.5  
 Scrapy 2.0.1  
 
 ## 程式解說：
