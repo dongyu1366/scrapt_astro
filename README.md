@@ -5,7 +5,7 @@
 3.crawler.py：定義了如何去parse資料並將資料存為上述的格式。  
 
 ## 使用此程式：
-1.下載檔案後，進入astro此目錄  
+1.下載檔案後，進入astro目錄  
 2.執行以下指令 $ scrapy crawl astro  
 3.即可將爬取到的網頁資料儲存資料庫  
 4.同時生成astro.json檔案  
