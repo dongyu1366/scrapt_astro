@@ -12,6 +12,6 @@ Scrapy 2.0.1
 1.下載檔案後，進入astro目錄  
 2.執行以下指令 $ scrapy crawl astro  
 3.即可將爬取到的網頁資料儲存至資料庫  
-4.同時生成astro.json檔案  
+4.同時將爬取到的資料輸出為astro.json  
 
 
