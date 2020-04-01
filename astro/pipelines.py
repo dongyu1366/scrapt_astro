@@ -25,9 +25,6 @@ class AstroPipeline(object):
 		self.conn.close()
 	
 	def process_item(self, item, spider):
-		col = ','.join(item.keys())
-		placeholders = ','.join(len(item) * '?')
-		sql = 'insert into astro({}) values({})'
 		self.cur.execute("insert into astro values(?,?,?,?,?,?)",(
             item['day'], 
             item['constellation'], 
